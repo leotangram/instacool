@@ -1,6 +1,5 @@
 import * as firebase from 'firebase'
 
-
 const config = {
   apiKey: 'AIzaSyCzWrgcwWCgqfMbXlcgfm4MDXjD92tm45Y',
   authDomain: 'instacool-1033d.firebaseapp.com',

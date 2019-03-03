@@ -23,13 +23,15 @@ interface IInputProps {
 }
 
 const Input: React.StatelessComponent<WrappedFieldProps & IInputProps> = props => {
-  const { label } = props
+  const { input, label } = props
   return (
-    <div>
-      <span style={spanStyle}>{label}</span>
-      <input {...props} style={style} />
-    </div>
+      <div>
+          <span style={ spanStyle }>{ label }</span>
+          <input {...input } { ...props } style={ style } />
+      </div>
   )
+  
 }
+
 
 export default Input
